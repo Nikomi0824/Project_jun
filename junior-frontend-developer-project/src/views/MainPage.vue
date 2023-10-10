@@ -1,11 +1,11 @@
 <template>
     <div>
-        <MainBlock></MainBlock>
-        <AboutBlock></AboutBlock>
-        <SliderBlock></SliderBlock>
-        <BlogBlock></BlogBlock>
-        <ContactBLock></ContactBLock>
-        <TextBlock></TextBlock>
+        <MainBlock class="MainBlock"></MainBlock>
+        <AboutBlock class="AboutBlock"></AboutBlock>
+        <SliderBlock class="SliderBlock"></SliderBlock>
+        <BlogBlock class="BlogBlock"></BlogBlock>
+        <ContactBLock class="ContactBLock"></ContactBLock>
+        <TextBlock class="TextBlock"></TextBlock>
     </div>
 </template>
 
@@ -31,3 +31,25 @@ export default{
 }
 
 </script>
+
+
+<style>
+.MainBlock{
+    margin-top: 100px;
+}
+.AboutBlock{
+    margin-top: 208px;
+}
+.SliderBlock{
+    margin-top: 90px;
+}
+.BlogBlock{
+    margin-top: 70px;
+}
+.ContactBLock{
+    margin-top: 86px;
+}
+.TextBlock{
+    margin: 150px 0 254px;
+}
+</style>
