@@ -35,7 +35,7 @@ export default{
 
 <style>
 .MainBlock{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .AboutBlock{
     margin-top: 208px;

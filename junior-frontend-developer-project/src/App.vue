@@ -4,6 +4,7 @@
     <router-view/>
     <FooterBlock class="FooterBlock"></FooterBlock>
     <img class="bagarunde" src="/Image/bagraund.svg" alt="">
+    
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default{
 <style lang="scss">
 @import url("./assets/Style/global.scss");
 #app {
-  background: "@/assets/Image/bagraund.svg";
+  overflow: hidden;
   
 }
 .FooterBlock{
